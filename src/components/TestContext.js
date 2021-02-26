@@ -2,14 +2,14 @@ import React from "react"
 
 export const CounterContext = React.createContext()
 
-const CounterProvider = () => {
+const CounterProvider = ({children}) => {
   const [counter, setCounter] = React.useState(0)
   const increment = () => setCounter(counter + 1)
   const decrement = () => setCounter(counter - 1)
 
   return (
     <CounterContext.Provider value={{ counter, increment, decrement }}>
-      <Counter />
+        {children}aq
     </CounterContext.Provider>
   )
 }
