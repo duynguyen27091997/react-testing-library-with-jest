@@ -7,5 +7,5 @@ afterEach(cleanup)
 test('should take a snapshot again', () => {
     const { asFragment } = render(<App />)
 
-    expect(asFragment(<App />)).toMatchSnapshot()
+    expect(asFragment()).toMatchSnapshot()
 })

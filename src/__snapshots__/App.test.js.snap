@@ -1,24 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should take a snapshot 1`] = `
-<DocumentFragment>
-  <div
-    class="App"
-  >
-    <h1>
-      Testing Updated 2
-    </h1>
-  </div>
-</DocumentFragment>
-`;
-
 exports[`should take a snapshot again 1`] = `
 <DocumentFragment>
   <div
     class="App"
   >
     <h1>
-      Testing Updated 2
+      Testing Updated 1
     </h1>
   </div>
 </DocumentFragment>
